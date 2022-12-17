@@ -4,6 +4,7 @@
 // 1, -7, 567, 89, 223-> 4
 
 Console.Write("Введите положительные и отрицательные числа через запятую: ");
+Console.WriteLine();
 int[] arr = Array.ConvertAll(Console.ReadLine()!.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries), int.Parse);
 int count = 0;
  
